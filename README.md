@@ -34,7 +34,7 @@ Linux and macOS on amd64 and arm64, and Windows on amd64.
 ## Authenticate
 
 `ironfang render` and `ironfang rig` need a platform API key. Mint one in the
-portal at <https://portal.ironfang.uk> with the scopes the product needs, and
+portal at <https://portal.ironfang.com> with the scopes the product needs, and
 give it to the CLI through the environment or a file, never as an argument:
 
 ```sh
@@ -44,7 +44,7 @@ ironfang render screenshot https://example.com -o page.png
 ironfang rig run --api-key-file ~/.config/ironfang/key -- npm run test:e2e
 ```
 
-`IRONFANG_API_URL` overrides the API address (default `https://api.ironfang.uk`).
+`IRONFANG_API_URL` overrides the API address (default `https://api.ironfang.com`).
 The connector uses a single-use bootstrap token instead, minted for one run:
 
 ```sh
@@ -66,10 +66,10 @@ in `REPORT-FORMAT.md`.
 
 ## Documentation
 
-- Render: <https://ironfang.uk/render/docs>
-- Rig: <https://ironfang.uk/rig/docs>
-- Audit: <https://ironfang.uk/audit/docs>
-- Finance: <https://ironfang.uk/docs/finance>
+- Render: <https://ironfang.com/render/docs>
+- Rig: <https://ironfang.com/rig/docs>
+- Audit: <https://ironfang.com/audit/docs>
+- Finance: <https://ironfang.com/docs/finance>
 
 This repository holds releases only; the source is Ironfang Ltd's private
 monorepo. Go's licence for the compiled binary is in `GO-LICENSE.txt`.
